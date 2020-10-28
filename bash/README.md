@@ -1,3 +1,4 @@
 # My Bash Configuration
 
-Place .bash\_aliases file in the home directory.
+The `.bashrc` has some pieces that I use.
+Place the `.bash_aliases` file in the home directory.
