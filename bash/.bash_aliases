@@ -11,9 +11,7 @@ alias gitpom='git push origin master'
 alias g14="g++ -std=c++14 -O2 -Wall"
 
 # Clipboard
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
-alias copy='pbcopy <'
+alias copy='xsel --clipboard --input <'
 
 # For activating virtual environments
 alias cvenv='source ~/py-virtual-envs/py3cv4/bin/activate'
