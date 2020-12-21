@@ -1,9 +1,11 @@
 {
 	"block_caret": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_size": 17,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -12,15 +14,5 @@
 	[
 		"draw_active"
 	],
-	"material_theme_accent_blue": true,
-	"material_theme_arrow_folders": true,
-	"material_theme_big_fileicons": true,
-	"material_theme_bullet_tree_indicator": true,
-	"material_theme_compact_panel": true,
-	"material_theme_small_tab": true,
-	"material_theme_titlebar": true,
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"ensure_newline_at_eof_on_save": true,
-	"highlight_modified_tabs": true,
+	"theme": "Default.sublime-theme"
 }
-

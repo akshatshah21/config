@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 cout << ${1:ans} << '\n';
+$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cans</tabTrigger>

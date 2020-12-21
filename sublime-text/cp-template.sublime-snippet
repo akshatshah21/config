@@ -18,9 +18,9 @@ const int MOD = 1000000007;
  
  
 int main() {
-    fastio();
-    ${1}
-    return 0;
+	fastio();
+	$0
+	return 0;
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
