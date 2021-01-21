@@ -1,0 +1,34 @@
+# Machine Learning Virtual Environment Requirements
+
+# Essentials
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+
+# Efficient jobs (caching, parallelism, persistence)
+joblib
+
+# HTTP requests
+requests
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Deep Learning
+# tensorflow
+# Replace tensorflow with tensorflow-gpu for GPU support
+# # tensorflow-gpu
+# tensorboard
+# tensorflow-estimator
+
+# Image Manipulation
+# imageio
+# Pillow
+# scikit-image
+# graphviz
+# pydot
+# opencv-python
+# pyglet
