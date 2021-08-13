@@ -8,7 +8,7 @@ export ZSH="/home/akshat/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="avit"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -128,9 +128,15 @@ alias rm='rm -i'
 # Python3
 alias py='python3'
 
+# Bat
+alias bat='batcat'
+
+# Bash-like ls
+alias la='ls -a'
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# For Ctrl+l behaviour on kitty
+# Fix (against the standards though) for Ctrl+l for kitty
 scroll-and-clear-screen() {
   local i=1
   while read; do ((i++)); done <<< $PS1
