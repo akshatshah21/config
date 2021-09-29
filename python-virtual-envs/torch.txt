@@ -1,0 +1,11 @@
+# Other stuff
+opencv-python
+numpy
+Pillow
+matplotlib
+tqdm
+pandas
+jupyterlab
+ipywidgets
+
+# Follow torch docs to install torch
