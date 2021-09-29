@@ -2,6 +2,11 @@
 
 # Essentials
 jupyter
+jupyterlab
+ipykernel
+
+# Run `python -m ipykernel install --user --name=myenv` for venv in jupyter
+
 matplotlib
 numpy
 pandas
@@ -17,18 +22,3 @@ requests
 scikit-learn
 xgboost
 
-# Deep Learning
-# tensorflow
-# Replace tensorflow with tensorflow-gpu for GPU support
-# # tensorflow-gpu
-# tensorboard
-# tensorflow-estimator
-
-# Image Manipulation
-# imageio
-# Pillow
-# scikit-image
-# graphviz
-# pydot
-# opencv-python
-# pyglet
