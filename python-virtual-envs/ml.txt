@@ -3,14 +3,18 @@
 # Essentials
 jupyter
 jupyterlab
+nbconvert
 ipykernel
 
 # Run `python -m ipykernel install --user --name=myenv` for venv in jupyter
 
-matplotlib
 numpy
 pandas
 scipy
+matplotlib
+seaborn
+mplfinance
+
 
 # Efficient jobs (caching, parallelism, persistence)
 joblib

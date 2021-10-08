@@ -6,6 +6,7 @@ matplotlib
 tqdm
 pandas
 jupyterlab
+nbconvert
 ipywidgets
 
 # Follow torch docs to install torch

@@ -9,6 +9,7 @@ export ZSH="/home/akshat/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="avit"
+wal --theme base16-gruvbox-hard -q
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -132,7 +133,37 @@ alias py='python3'
 alias bat='batcat'
 
 # Bash-like ls
-alias la='ls -a'
+if ls --color -d . &> /dev/null
+then
+  alias ls="ls --color=auto"
+elif ls -G -d . &> /dev/null
+then
+  alias ls='ls -G'        # Compact view, show colors
+fi
+
+# List directory contents
+alias sl=ls
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -al'
+alias l='ls -a'
+alias l1='ls -1'
+
+# Shortcuts to edit startup files
+alias vbrc="vim ~/.bashrc"
+alias vzrc="vim ~/.zshrc"
+alias vvrc="vim ~/.vimrc"
+alias vpf="vim ~/.profile"
+
+alias ..='cd ..'         # Go up one directory
+alias cd..='cd ..'       # Common misspelling for going up one directory
+
+# sudo editors
+alias svim="sudo vim"
+
+# Python virtual environments
+alias mlenv="source /home/akshat/py-envs/ml/bin/activate"
+alias torchenv="source /home/akshat/py-envs/torch/bin/activate"
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
