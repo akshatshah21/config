@@ -1,0 +1,16 @@
+{
+	"run_settings": [
+		{
+			"name": "C++",
+			"extensions": ["cpp"],
+			"compile_cmd": "mkdir -p .out/ && g++ '{source_file}' -std=gnu++17 -o .out/{file_name}.out",
+			"run_cmd": ".out/\"{file_name}.out\" {args} -debug",
+
+			"lint_compile_cmd": "g++ -std=gnu++17 '{source_file}' -I '{source_file_dir}'"
+		},
+	],
+	"tests_relative_dir": ".tests",
+	"cpp_complete_enabled": false,
+	"close_sidebar": false,
+}
+
