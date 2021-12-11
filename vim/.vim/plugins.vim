@@ -8,7 +8,6 @@ endif
 
 " PLUGINS (VIM-PLUG)
 call plug#begin('~/.vim/plugged')
-
 " Brackets autoclose
 Plug 'Townk/vim-autoclose'
 " Better mouse usage, cursor changes to | in insert mode
@@ -17,23 +16,15 @@ Plug 'wincent/terminus'
 Plug 'itchyny/lightline.vim'
 " Comments
 Plug 'tpope/vim-commentary'
-
 " Theme: Gruvbox
 Plug 'morhetz/gruvbox'
-
-
-" Latex
-Plug 'lervag/vimtex'
-let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-
-Plug 'KeitaNakamura/tex-conceal.vim'
-set conceallevel=1
-let g:tex_conceal='abdmg'
-hi Conceal ctermbg=none
-
-Plug 'dylanaraps/wal'
-
+" Theme: Monokai Pro
+Plug 'phanviet/vim-monokai-pro'
+" Kitty syntax
+Plug 'fladson/vim-kitty'
+" Colors
+Plug 'ap/vim-css-color'
+" NERDTree
+Plug 'preservim/nerdtree'
 " Initialize plugin system
 call plug#end()
