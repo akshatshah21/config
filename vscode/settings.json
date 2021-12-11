@@ -1,0 +1,53 @@
+{
+    "workbench.colorTheme": "GitHub Light",
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.format": "Letter",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-x>": false,
+        "<C-z>": false,
+        "<C-y>": false,
+        "<C-c>": false,
+        "<C-k>": false,
+        "<C-j>": false,
+        "<C-p>": false,
+        "<C-w>": false,
+        "<C-t>": false,
+        "<C-a>": false,
+        "<C-n>": false,
+        "<C-b>": false,
+        "<C-v>": false,
+        "<C-/>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        79
+    ],
+    "editor.lineNumbers": "relative"
+}
