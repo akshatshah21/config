@@ -16,7 +16,10 @@ nnoremap <c-u> viwUjk
 nnoremap <c-l> viwujk
 
 " Convert a word to uppercase when in insert mode
-imap <c-u> jkviwUjki
+inoremap <c-u> jkviwUjki
 
 " Convert a word to lowercase when in insert mode
-imap <c-l> jkviwujki
+inoremap <c-l> jkviwujki
+
+" Toggle NERDTree explorer
+nnoremap <F6> :NERDTreeToggle<CR>
