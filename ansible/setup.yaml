@@ -1,0 +1,12 @@
+- hosts: localhost
+  become: true
+  pre_tasks:
+    - name: Update apt cache
+      apt:
+        update-cache: true
+      tags:
+      - zsh
+      - node
+  tasks:
+  - include: zsh.yaml
+  - include: node.yaml
